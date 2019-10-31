@@ -1,7 +1,7 @@
 {
   "name": "learn_node",
   "version": "1.0.0",
-  "description": "",
+  "description": "> **Note:** run command \"npm init \" first\r > **Note:** all env variable must be initialized in .env.example",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
@@ -15,5 +15,13 @@
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "nodemon": "^1.19.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kensang248/nodejs_offline_CoderX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kensang248/nodejs_offline_CoderX/issues"
+  },
+  "homepage": "https://github.com/kensang248/nodejs_offline_CoderX#readme"
 }

@@ -20,5 +20,9 @@ app.listen(port,()=>{
 });
 
 app.get('/',(request,response,next)=>{
-    response.render('home',{layout:false,title:'123456789'});
+    response.render('home',{layout:false});
 });
+
+app.post('/',(request,response,next)=>{
+    response.render('home',{layout:false, formSubmitted:true})
+})
